@@ -1,0 +1,29 @@
+.list {
+  color: black;
+  text-align: left;
+  margin-left: 40px;
+  /* background-color: rgb(175, 205, 245); */
+  width: 80%;
+}
+
+.list p {
+  padding: 10px;
+  position: relative;
+  font-size: 28px;
+}
+.del-btn {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #3e5cc9;
+  color: white;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgb(53, 52, 52);
+}
